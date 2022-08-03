@@ -1,16 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
+import Login from '../../screens/login/Login'
 import React from 'react'
 
 const AuthStack = () => {
   return (
-    <View>
-      <Text>AuthStack</Text>
-    </View>
+    <Login />
   )
 }
 
 export default AuthStack
-
-const styles = StyleSheet.create({
-    
-})
